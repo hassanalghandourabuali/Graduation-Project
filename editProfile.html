@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Driving School Management">
+    <meta name="keywords" content="School, Driving, System, Studnt, Class, License, Instructor, Senior">
+    <title>Student</title>
+    <!-- Tab Icon -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/elatelogoo-removebg-preview.png">
+    <!-- Remix Icon -->
+    <link rel="stylesheet" href="css/remixicon.css">
+    <!-- Rendor All Elements Normally -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Css Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- CSS Chart List -->
+    <link rel="stylesheet" href="css/chartist.min.css">
+    <!-- CSS Mirror Chart -->
+    <link rel="stylesheet" href="css/morris.css">
+    <!-- Css Style File -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <!-- All -->
+    <div class="wrapper">
+        <!-- Start Navber -->
+        <nav class="navbar">
+            <span class="ri-align-justify" id="btn"></span>
+            <div class="logo-content">
+                <div class="logo">
+                    <a href="index.html" class="brand-link">
+                        <img src="Img/elatelogoo-removebg-preview.png"  class="brand-image img-circle" style="opacity: .8">
+                        <span class="brand-text">Elate</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <!-- *End Navbar -->
+        <div class="main-screen">
+            <!-- Start Main Sidebar Content -->
+            <aside class="sidebar">
+                <!-- Brand Logo -->
+                <div class="sidebar-content">
+                    <ul class="nav-list">
+                        <li>  
+                            <a href="index.html">
+                                <i class="ri-home-8-line"></i>
+                                <span class="links-name">Dashboard</span>
+                            </a>
+                            <span class="tooltip">Home</span>
+                        </li>
+                        <li>  
+                            <a href="table.html">
+                                <i class="ri-team-fill"></i>
+                                <span class="links-name">Instructors</span>
+                            </a>
+                            <span class="tooltip">Instructors</span>
+                        </li>
+                        <li>
+                            <a href="theortical.html">
+                                <i class="ri-book-fill"></i>
+                                <span class="links-name">Theortical Courses</span>
+                            </a>
+                            <span class="tooltip">Theortical</span>
+                        </li>
+                        <li>
+                            <a href="practical.html">
+                                <i class="ri-car-fill"></i>
+                                <span class="links-name">practical Courses</span>
+                            </a>
+                            <span class="tooltip">Practical</span>
+                        </li>
+                        <li>
+                            <a href="test.html">
+                                <i class="ri-article-fill"></i>
+                                <span class="links-name">Test</span>
+                            </a>
+                            <span class="tooltip">Test</span>
+                        </li>
+                        <li>
+                            <a href="liscense.html">
+                                <i class="ri-roadster-fill"></i>
+                                <span class="links-name">Liscence Test</span>
+                            </a>
+                            <span class="tooltip">Liscence</span>
+                        </li>
+                    </ul>
+                    <div class="profile-content">
+                        <a href="stuprofile.html">
+                            <div class="profile">
+                                <div class="profile-details">
+                                    <img src="Img/user-img.jpg" alt="User">
+                                    <div class="name-job">
+                                        <p class="name">Amal Mousa</p>
+                                        <p class="job">Student</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#"><i class="ri-logout-box-line"></i></a>
+                    </div>
+                </div>
+            </aside>
+            <!-- *End Sidebar -->
+            <!-- Content Wrapper Containes Page Content -->
+            <div class="content-wrapper">
+                <!-- Start Content Header (page header) -->
+                <section class="content-header">
+                    <div class="container-fluid">
+                        <div class="row mb-2">
+                            <div class="col">
+                                <h1>Edit Profile</h1>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- *End Content Header -->
+                <!-- Start Edit Student Profile -->
+                <section class="edit-student">
+                    <div class="container-fluid">
+                        <form>
+                            <div class="upload">
+                                <img src="Img/avatar.png" width="100" height="100" alt="">
+                                <div class="round">
+                                    <input type="file">
+                                    <i class="ri-camera-line" color="#fff"></i>
+                                </div>
+                            </div>
+                            <!-- <div class="form-row upload">
+                                <button type="button" class="btn-warniing">
+                                    <i class="ri-upload-line"></i> Upload File
+                                    <input type="file">
+                                </button>
+                            </div> -->
+                            <div class="form-row">
+                              <div class="form-group col-md-6">
+                                <label for="inputEmail4" class="edit-label">First Name</label>
+                                <input type="text" class="form-control practical-date" id="inputEmail4" placeholder="First Name">
+                              </div>
+                              <div class="form-group col-md-6">
+                                <label for="inputPassword4" class="edit-label">Last Name</label>
+                                <input type="text" class="form-control practical-date" id="inputPassword4" placeholder="Last Name">
+                              </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                  <label for="inputEmail4" class="edit-label">Password</label>
+                                  <input type="text" class="form-control practical-date" id="inputEmail4" placeholder="********">
+                                </div>
+                                <div class="form-group col-md-6">
+                                  <label for="inputPassword4" class="edit-label">Confirm Password</label>
+                                  <input type="text" class="form-control practical-date" id="inputPassword4" placeholder="********">
+                                </div>
+                              </div>
+                            <div class="form-row">
+                              <div class="form-group col-md-6">
+                                <label for="inputCity" class="edit-label">EmaiL</label>
+                                <input type="text" class="form-control practical-date" id="inputCity"placeholder="Email">
+                              </div>
+                              <div class="form-group col-md-4">
+                                <label for="inputState" class="edit-label">Locatoin</label>
+                                <input type="text" class="form-control practical-date" id="inputZip" placeholder="Phone">
+                              </div>
+                              <div class="form-group col-md-2">
+                                <label for="inputZip" class="edit-label">Age</label>
+                                <input type="number" class="form-control practical-date" id="inputZip" placeholder="Age">
+                              </div>
+                            </div>
+                            <div class="button-edit">
+                                <button type="submit" class="edit-button">Save</button>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+                
+                
+                <!-- End Edit Student Profile -->
+                
+                <!-- End Content Header -->
+                <!-- Main Content Start -->
+                <!--! Write Content Here... -->
+            </div>
+        <!-- End Content Wrapper -->
+        </div>
+        
+    </div>
+    <!--Start Footer -->
+    <footer class="main-footer">
+        <strong>Copyright &copy; 2021-2022<a href="https://adminlte">Elate</a>.</strong>
+        <span>All rights reserved.</span>
+    </footer>
+    <!-- End Footer -->
+    <!-- Call Bootstrap -->
+    <script src="JS/jquery.js"></script>
+    <script src="JS/jquery.min.js"></script>
+    <script src="JS/bootstrap.bundle.js"></script>
+    <script src="JS/sideBar.js"></script>
+</body>
+</html>

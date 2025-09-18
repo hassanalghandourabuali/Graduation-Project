@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Driving School Management">
+    <meta name="keywords" content="School, Driving, System, Studnt, Class, License, Instructor, Senior">
+    <title>Student</title>
+    <!-- Tab Icon -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/elatelogoo-removebg-preview.png">
+    <!-- Remix Icon -->
+    <link rel="stylesheet" href="css/remixicon.css">
+    <!-- Rendor All Elements Normally -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Css Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- CSS Chart List -->
+    <link rel="stylesheet" href="css/chartist.min.css">
+    <!-- CSS Mirror Chart -->
+    <link rel="stylesheet" href="css/morris.css">
+    <!-- Css Style File -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <!-- All -->
+    <div class="wrapper">
+        <!-- Start Navber -->
+        <nav class="navbar">
+            <span class="ri-align-justify" id="btn"></span>
+            <div class="logo-content">
+                <div class="logo">
+                    <a href="index.html" class="brand-link">
+                        <img src="Img/elatelogoo-removebg-preview.png"  class="brand-image img-circle" style="opacity: .8">
+                        <span class="brand-text">Elate</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <!-- *End Navbar -->
+        <div class="main-screen">
+            <!-- Start Main Sidebar Content -->
+            <aside class="sidebar">
+                <!-- Brand Logo -->
+                
+                <div class="sidebar-content">
+                    <ul class="nav-list">
+                        <li>  
+                            <a href="index.html">
+                                <i class="ri-home-8-line"></i>
+                                <span class="links-name">Dashboard</span>
+                            </a>
+                            <span class="tooltip">Home</span>
+                        </li>
+                        <li>  
+                            <a href="table.html">
+                                <i class="ri-team-fill"></i>
+                                <span class="links-name">Instructors</span>
+                            </a>
+                            <span class="tooltip">Instructors</span>
+                        </li>
+                        <li>
+                            <a href="theortical.html">
+                                <i class="ri-book-fill"></i>
+                                <span class="links-name">Theortical Courses</span>
+                            </a>
+                            <span class="tooltip">Theortical</span>
+                        </li>
+                        <li>
+                            <a href="practical.html">
+                                <i class="ri-car-fill"></i>
+                                <span class="links-name">practical Courses</span>
+                            </a>
+                            <span class="tooltip">Practical</span>
+                        </li>
+                        <li>
+                            <a href="test.html">
+                                <i class="ri-article-fill"></i>
+                                <span class="links-name">Test</span>
+                            </a>
+                            <span class="tooltip">Test</span>
+                        </li>
+                        <li>
+                            <a href="liscense.html">
+                                <i class="ri-roadster-fill"></i>
+                                <span class="links-name">Liscence Test</span>
+                            </a>
+                            <span class="tooltip">Liscence</span>
+                        </li>
+                    </ul>
+                    <div class="profile-content">
+                        <a href="stuprofile.html">
+                            <div class="profile">
+                                <div class="profile-details">
+                                    <img src="Img/user-img.jpg" alt="User">
+                                    <div class="name-job">
+                                        <p class="name">Amal Mousa</p>
+                                        <p class="job">Student</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#"><i class="ri-logout-box-line"></i></a>
+                    </div>
+                </div>
+            </aside>
+            <!-- *End Sidebar -->
+            <!-- Content Wrapper Containes Page Content -->
+            <div class="content-wrapper">
+                <!-- Start Content Header (page header) -->
+                <section class="content-header">
+                    <div class="container-fluid">
+                        <div class="row mb-2">
+                            <div class="col">
+                                <h1>Dashboard</h1>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- *End Content Header -->
+                <!-- Start Student Dashboard -->
+                <section class="stu-dashboard">
+                    <!-- Start Row One -->
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="dash-box">
+                                    <div class="dash-icon">
+                                        <i class="ri-money-dollar-circle-line"></i>
+                                    </div>
+                                    <div class="dash-description">
+                                        <p class="box-name">Income</p>
+                                        <p class="box-rate">$3,000</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="dash-box">
+                                    <div class="dash-icon dash-icon-two">
+                                        <i class="ri-group-fill"></i>
+                                    </div>
+                                    <div class="dash-description">
+                                        <p class="box-name">Instructors</p>
+                                        <p class="box-rate">5</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="dash-box">
+                                    <div class="dash-icon dash-icon-three">
+                                        <i class="ri-roadster-fill"></i>
+                                    </div>
+                                    <div class="dash-description">
+                                        <p class="box-name">Vheicls</p>
+                                        <p class="box-rate">10</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="dash-box">
+                                    <div class="dash-icon dash-icon-four">
+                                        <i class="ri-money-dollar-circle-line"></i>
+                                    </div>
+                                    <div class="dash-description">
+                                        <p class="box-name">Income</p>
+                                        <p class="box-rate">$3,000</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- *End Row One -->
+                    <!-- Start Row Two -->
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6 col-lg-6">
+                                <div class="perform-box">
+                                    <div class="perform-header">
+                                        <h4>Performence</h4>
+                                    </div>
+                                    <!-- <div class="perform-rate">
+                                        <div class="rate-one">
+                                            <p>Attendance</p>
+                                            <p>20%</p>
+                                        </div>
+                                        <div class="rate-two">
+                                            <p>Adherence</p>
+                                            <p>50%</p>
+                                        </div>
+                                    </div> -->
+                                    <div class="perform-chart">
+                                        <!-- Chart 1 Here -->
+                                        <!-- <canvas id="myChart"></canvas> -->
+                                        <!-- <canvas id="revenueChart" height="300px"></canvas> -->
+                                        <!-- Chart 1 (تجريبي) -->
+                                        <!-- <canvas id="areaChart"  height="150px"></canvas> -->
+                                        <!-- Chart 2 (تجريبي) -->
+                                        <div id="barChartMorris"  height="150px"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <div class="lessons-box">
+                                    <div class="lesson-header">
+                                        <h4>Lessons</h4>
+                                    </div>
+                                    <div class="lesson-chart">
+                                        <!-- Chart 2 Here -->
+                                        <!-- <canvas id="myChartTwo"></canvas> -->
+                                        <!-- <div class="ct-chart" id="lineChartChartist"  style="height: 300px;"></div> -->
+                                        <div id="doughnutChartMorris" height="150px"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <!-- <div class="col-md-8 col-lg-8">
+                                <div class="perform-box">
+                                    <div class="perform-header">
+                                        <h4>Performence</h4>
+                                    </div> -->
+                                    <!-- <div class="perform-rate">
+                                        <div class="rate-one">
+                                            <p>Attendance</p>
+                                            <p>20%</p>
+                                        </div>
+                                        <div class="rate-two">
+                                            <p>Adherence</p>
+                                            <p>50%</p>
+                                        </div> --> 
+                                    <!-- </div>
+                                    <div class="perform-chart">
+                                        <!-- Chart 1 Here -->
+                                        <!-- <canvas id="myChartFive"></canvas> -->
+                                        <!-- <div id="lineChartFlot" style="width: 100%; height:300px"></div> -->
+                                        <!-- <canvas id="lineChart" width="100%"></canvas>
+                                    </div>  -->
+                            <!-- </div> -->
+                            <!-- </div> -->
+                            <div class="col-md-6 col-lg-6">
+                                <div class="small-boxes">
+                                    <div class="expense-box-one">
+                                        <div class="expense-header-one">
+                                            <h4>Expenses</h4>
+                                        </div>
+                                        <div class="expense-chart">
+                                            <!-- Chart 3 Here -->
+                                            <!-- <div class="ct-chart" id="lineChartChartist"  style="height: 300px;"></div> -->
+                                            <!-- <div class="ct-chart" id="donutChartChartist" style="height: 300px;"></div> -->
+                                            <div id="lineChartMorris"  height="150px"></div>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="expense-box-two">
+                                        <div class="expense-header-two">
+                                            <h4>Expenses</h4>
+                                        </div>
+                                        <div class="expense-chart">
+                                            <!-- Chart 3 Here -->
+                                            <!-- <canvas id="myChartFour"></canvas>
+                                        </div> -->
+                                    <!-- </div> -->
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <div class="lessons-box">
+                                    <div class="lesson-header">
+                                        <h4>Instructors</h4>
+                                    </div>
+                                    <table>
+                                        <thead>
+                                          <tr>
+                                            <th scope="col top">ID</th>
+                                            <th scope="col top">Image</th>
+                                            <th scope="col top">
+                                                Name
+                                                <button class="ri-arrow-up-down-line sort-icon"></button>
+                                            </th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <td data-label="Account">
+                                                1
+                                            </td>
+                                            <td data-label="Due Date">
+                                                <a href="insprofile.html"><img class="instructor-img" src="img/user-thumb.jpg.crdownload"
+                                                    width="60px" height="60px"></a>
+                                            </td>
+                                            <td data-label="Amount">Sami</td>
+                                          </tr>
+                                          <tr>
+                                            <td scope="row" data-label="Account">
+                                                2
+                                            </td>
+                                            <td data-label="Due Date">
+                                                <a href="insprofile.html"><img class="instructor-img" src="img/user1.jfif" width="60px" height="60px">
+                                            </a>
+                                            </td>
+                                            <td data-label="Amount">Amal</td>
+                                          </tr>
+                                          <tr>
+                                            <td scope="row" data-label="Account">
+                                                3
+                                            </td>
+                                            <td data-label="Due Date">
+                                                <a href="insprofile.html"><img class="instructor-img" src="img/user2.jfif" width="60px"
+                                                    height="60px">
+                                            </a>
+                                            </td>
+                                            <td data-label="Amount">Isra</td>
+                                          </tr>
+                                          <tr>
+                                            <td scope="row" data-label="Acount">
+                                                4
+                                            </td>
+                                            <td data-label="Due Date">
+                                                <a href="insprofile.html"><img class="instructor-img" src="img/user3.jfif" width="60px"
+                                                    height="60px">
+                                            </a> 
+                                            </td>
+                                            <td data-label="Amount">Omar</td>
+                                          </tr>
+                                          <tr>
+                                            <td scope="row" data-label="Acount">
+                                                5
+                                            </td>
+                                            <td data-label="Due Date">
+                                                <a href="insprofile.html"><img class="instructor-img" src="img/user3.jfif" width="60px"
+                                                    height="60px">
+                                            </a> 
+                                            </td>
+                                            <td data-label="Amount">Salem</td>
+                                          </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- *End Row Two -->
+                </section>
+                
+                <!-- End Student dashboard -->
+                
+                <!-- End Content Header -->
+                <!-- Main Content Start -->
+                <!--! Write Content Here... -->
+            </div>
+        <!-- End Content Wrapper -->
+        </div>
+        
+    </div>
+    <!--Start Footer -->
+    <footer class="main-footer">
+        <strong>Copyright &copy; 2021-2022<a href="https://adminlte">Elate</a>.</strong>
+        <span>All rights reserved.</span>
+    </footer>
+    <!-- End Footer -->
+    <!-- Call Bootstrap -->
+    <script src="JS/jquery.js"></script>
+    <script src="JS/jquery.min.js"></script>
+    <script src="JS/bootstrap.bundle.js"></script>
+    <!-- Call Chart JS Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js" 
+            integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ==" 
+            crossorigin="anonymous" 
+            referrerpolicy="no-referrer">
+    </script>
+    <script src="JS/chart.min.js"></script>
+    <script src="JS/demo.js"></script>
+    <!-- Call Chart List Library -->
+    <script src="js/chartist.min.js"></script>
+    <script src="js/chartist-data.js"></script>
+    <!-- Call Mirror Chart Library -->
+    <script src="JS/raphael.min.js"></script>
+    <script src="JS/morris.js"></script>
+    <!-- <script src="JS/demo.js"></script> -->
+    <!-- Call Flot Chart Library -->
+    <script src="JS/jquery.flot.min.js"></script>
+    <!-- <script src="JS/demo.js"></script> -->
+    <!-- Call SideBar JS -->
+    <script src="JS/sideBar.js"></script>
+    <!-- <script src="JS/chart.js"></script> -->
+</body>
+</html>

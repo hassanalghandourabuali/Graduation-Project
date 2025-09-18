@@ -1,0 +1,186 @@
+
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) {   
+     /*Start Sidebar Changes */
+    #btn{
+        left: 5%;
+    }
+    .sidebar{
+        left: -230px;
+    }
+    .sidebar ul li{
+        margin: 0 2px;
+    }
+    .hidden-sidebar{
+        left: 0;
+        width: 80px;
+    }
+    .links-name{
+        display: none;
+    }
+    .profile{
+        display: none;
+    }
+    .brand-text{
+        display: none;
+    }
+    .expand-wrapper{
+        margin-left: 80px;
+    }
+    .expand-footer{
+        margin-left: 80px;
+    }
+    /*End Sidebar Changes */
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /*Start Sidebar Changes */
+    #btn{
+        left: 3.5%;
+    }
+    .sidebar{
+        left: -230px;
+    }
+    .sidebar ul li{
+        margin: 0 2px;
+    }
+    .hidden-sidebar{
+        left: 0;
+        width: 80px;
+    }
+    .links-name{
+        display: none;
+    }
+    .profile{
+        display: none;
+    }
+    .brand-text{
+        display: none;
+    }
+    .expand-wrapper{
+        margin-left: 80px;
+    }
+    .expand-footer{
+        margin-left: 80px;
+    }
+    /*End Sidebar Changes */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*Start Sidebar Changes */
+    #btn{
+        left: 3.5%;
+    }
+    .sidebar{
+        left: -230px;
+    }
+    .sidebar ul li{
+        margin: 0 2px;
+    }
+    .hidden-sidebar{
+        left: 0;
+        width: 80px;
+    }
+    .links-name{
+        display: none;
+    }
+    .profile{
+        display: none;
+    }
+    .brand-text{
+        display: none;
+    }
+    .expand-wrapper{
+        margin-left: 80px;
+    }
+    .expand-footer{
+        margin-left: 80px;
+    }
+    /*End Sidebar Changes */
+    .instructor-information{
+        border: 1px solid var(--boxes-border);
+        border-radius: 10px;
+        display: block;
+        margin-bottom: .625em;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+}
+    
+table .thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+  table .instructor-information {
+    border: 1px solid var(--boxes-border);
+    border-radius: 10px;
+    display: block;
+    margin-bottom: .625em;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px; 
+    }
+  
+  table .tdata {
+    /* border-bottom: 1px solid #ddd; */
+    display: block;
+    font-size: .8em;
+    text-align: center;
+  }
+  
+  table .tdata::before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+    /*End Sidebar Changes */
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    /*Start Sidebar Changes */
+    .sidebar{
+        left: -230px;
+    }
+    .hidden-sidebar{
+        left: 0;
+    }
+    .sidebar ul li:hover .tooltip{
+        display: none;
+    }
+    /*End Sidebar Changes */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /*Start Sidebar Changes */
+    .sidebar{
+        left: -230px;
+    }
+    .hidden-sidebar{
+        left: 0;
+    }
+    .sidebar ul li:hover .tooltip{
+        display: none;
+    }
+    /*End Sidebar Changes */
+}
