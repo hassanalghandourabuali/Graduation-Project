@@ -8,8 +8,8 @@ This is my final graduation project, developed as a responsive web application. 
 * **JavaScript (JS):** For interactivity and dynamic functionality.
 
 [lesson.html](https://github.com/user-attachments/files/24394711/lesson.html)
-[license.html](https://github.com/user-attachments/files/24394713/license.html)[insprofile.html]
-(https://github.com/user-attachments/files/24394726/insprofile.html)
+[license.html](https://github.com/user-attachments/files/24394713/license.html)
+[insprofile.html](https://github.com/user-attachments/files/24394726/insprofile.html)
 [inslist.html](https://github.com/user-attachments/files/24394725/inslist.html)
 [index.html](https://github.com/user-attachments/files/24394724/index.html)
 [edit-profile.html](https://github.com/user-attachments/files/24394723/edit-profile.html)
@@ -34,8 +34,7 @@ This is my final graduation project, developed as a responsive web application. 
 [stuprofile.html](https://github.com/user-attachments/files/24394734/stuprofile.html)
 [studentlist.html](https://github.com/user-attachments/files/24394733/studentlist.html)
 [stuprofile.html](https://github.com/user-attachments/files/24394716/stuprofile.html)
-[login.html]
-[Uplo[testlist.html](https://github.com/user-attachments/files/24394765/testlist.html)
+[testlist.html](https://github.com/user-attachments/files/24394765/testlist.html)
 [stulist.html](https://github.com/user-attachments/files/24394776/stulist.html)
 [practicallist.html](https://github.com/user-attachments/files/24394775/practicallist.html)
 [insprofile.html](https://github.com/user-attachments/files/24394774/insprofile.html)
@@ -47,7 +46,8 @@ This is my final graduation project, developed as a responsive web application. 
 [vehcileDetalies.html](https://github.com/user-attachments/files/24394768/vehcileDetalies.html)
 [vechilelist.html](https://github.com/user-attachments/files/24394767/vechilelist.html)
 [theorticallist.html](https://github.com/user-attachments/files/24394766/theorticallist.html)
-[U[licensestu.html](https://github.com/user-attachments/files/24394779/licensestu.html)[assignIns.html](https://github.com/user-attachments/files/24394796/assignIns.html)
+[U[licensestu.html](https://github.com/user-attachments/files/24394779/licensestu.html)
+[assignIns.html](https://github.com/user-attachments/files/24394796/assignIns.html)
 [adleeson.html](https://github.com/user-attachments/files/24394795/adleeson.html)
 [addvheicle.html](https://github.com/user-attachments/files/24394794/addvheicle.html)
 [addtest.html](https://github.com/user-attachments/files/24394793/addtest.html)
@@ -70,9 +70,6 @@ This is my final graduation project, developed as a responsive web application. 
 [assignstudentlicense.html](https://github.com/user-attachments/files/24394797/assignstudentlicense.html)
 
 [practicallist.html](https://github.com/user-attachments/files/24394780/practicallist.html)
-ploading license.html…]()
-
-ading stuprofile.html…]()
 
 (https://github.com/user-attachments/files/24394755/login.html)<!DOCTYPE html>
 <html lang="en">
